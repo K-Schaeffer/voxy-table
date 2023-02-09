@@ -13,6 +13,18 @@
 
 ---
 
+### Clone this repository
+
+```sh
+git clone https://github.com/K-Schaeffer/voxy-table.git
+```
+
+### Go to clone directory
+
+```sh
+cd voxy-table/
+```
+
 ### Install dependencies
 
 ```sh
@@ -27,14 +39,7 @@ yarn quickstart
 
 ---
 
-## Project Setup
-
-### Requirements
-
-- Node LTS (18.x)
-- Yarn classic (1.x)
-
----
+## Scripts
 
 ### Install dependencies
 
