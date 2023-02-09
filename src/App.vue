@@ -1,9 +1,9 @@
 <script setup>
-import Home from './views/Home.vue';
+import TheHome from "./views/TheHome.vue";
 </script>
 
 <template>
   <div class="w-screen h-screen font-mono">
-    <Home />
+    <TheHome />
   </div>
 </template>

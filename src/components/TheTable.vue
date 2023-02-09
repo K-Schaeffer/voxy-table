@@ -40,8 +40,6 @@
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
-
 defineProps({
   rows: {
     type: Array,
@@ -49,16 +47,16 @@ defineProps({
   },
 });
 
-const emit = defineEmits(['sort']);
+const emit = defineEmits(["sort"]);
 
 const headCells = [
-  { text: 'Email' },
-  { text: 'First Name' },
-  { text: 'Last Name' },
-  { text: 'Primary Group' },
-  { text: 'Phone Number' },
-  { text: 'Hours Studied', isSortable: true },
+  { text: "Email" },
+  { text: "First Name" },
+  { text: "Last Name" },
+  { text: "Primary Group" },
+  { text: "Phone Number" },
+  { text: "Hours Studied", isSortable: true },
 ];
 
-const handleSort = () => emit('sort');
+const handleSort = () => emit("sort");
 </script>

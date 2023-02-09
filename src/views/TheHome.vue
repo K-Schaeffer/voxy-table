@@ -6,19 +6,19 @@
 </template>
 
 <script setup>
-import { reactive, ref, computed, watch } from 'vue';
+import { reactive, ref, computed, watch } from "vue";
 
-import TheTable from '../components/TheTable.vue';
-import TheSearchBar from '../components/TheSearchBar.vue';
+import TheTable from "../components/TheTable.vue";
+import TheSearchBar from "../components/TheSearchBar.vue";
 
-import mockData from '../data/mockData.json';
+import mockData from "../data/mockData.json";
 
 let rows = reactive(mockData);
-const currentFilter = ref('');
+const currentFilter = ref("");
 const currentSort = ref(null);
 
 const currentRows = computed(() => {
-  if (currentFilter.value.length === '') {
+  if (currentFilter.value.length === "") {
     return rows;
   }
 
