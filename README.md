@@ -6,7 +6,14 @@
 
 ## Project Setup
 
-**Required**: Node LTS (18.x) / Yarn Classic (1.x)
+### Requirements
+
+- Node LTS (18.x)
+- Yarn classic (1.x)
+
+---
+
+### Install dependencies
 
 ```sh
 yarn install
